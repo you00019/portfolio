@@ -1,0 +1,41 @@
+#logo{
+    max-height:100px;
+    max-width:auto;
+}
+
+.nav-item{
+    padding-top: 120px;
+    padding-right:100px;
+}
+
+#home{
+    color:#EC1C24;
+    font-weight: bold;
+}
+
+#about,
+#portfolio,
+#contact{
+    color:white;
+    font-weight: bold;
+}
+
+nav a,
+nav a:link,
+nav a:visited{
+    display: inline;
+    text-decoration: none;
+
+.fb{
+    padding-top: 50px;
+    margin-left:300px;
+}
+
+.tk{
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.nav-link-1{
+    font-weight:bold;
+}
