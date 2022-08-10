@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="css/portfolio.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container" id="top">
+      <ul class="skip-links">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+      </ul>
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container-xl justify-content-end">
+              <a class="navbar-brand" href="portfolio.html"><img id="logo" src="images/logo_white.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link"  id="home" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="about" href="about.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="portfolio" href="portfolio.html">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="contact" href="contact.html">CONTACT</a>
+                  </li>
+                  <li class="fb">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" >
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                  </li>
+                  <li class="tk">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                  </svg>
+                  </li>
+               </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+<main>
+<div id="myCarousel1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/background.jpg" class="d-block w-100" alt="background">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 class="display-3 py-5">Tailor to suit your needs.</h1>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</main>
+   <div id="myCarousel2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/photography_large.jpg" class="d-block w-100" alt="photography">
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1 class="display-3 py-5">Photography</h1><br>
+                <a href="photography.html" id="button1" class="btn btn-danger py-10" role="button">Read more</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div id="myCarousel3" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/design.jpeg" id="design" class="d-block w-100" alt="design">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h2 class="display-3 py-5">Design</h2><br>
+            <a href="design.html" id="button2" class="btn btn-danger py-10" role="button">Read more</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+    <footer class="site-footer" role="contentinfo">&copy; 2022 Jia You Media <a href="#top">Back to Top</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+#logo{
+    max-height:100px;
+}
+
+@media screen and (min-width: 760px){
+    .nav-item{
+        padding-top: 120px;
+    }
+    .navbar-nav{
+         justify-content: space-between;
+         width: 100%;
+    }
+
+    .fb{
+        padding-top: 120px;
+        color:white;
+    }
+
+    .tk{
+        padding-top: 120px;
+        margin-left: 10px;
+    }
+}
+#portfolio{
+    color:#EC1C24;
+    font-weight: bold;
+}
+
+#home,
+#about,
+#contact{
+    color:white;
+    font-weight: bold;
+}
+
+nav a,
+nav a:link,
+nav a:visited{
+    display: inline;
+    text-decoration: none;
+}
+
+.fb{
+    color:white;
+}
+
+.tk{
+    color:white;
+}
+
+.display-1{
+    font-weight:bold;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.display-6{
+    font-weight: bold;
+}
+
+h1{
+  color:white;
+}
+
+.banner{
+  background:black center center;
+  background-size: 50px;
+}
+
+h5{
+  margin-top: 400px;
+  padding-left:480px;
+}
+
+
+h2{
+  margin-bottom: -30px;
+  padding-bottom:500px;
+}
+
+.skip-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color:white;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+  
+.skip-links a:focus{
+    top: 0;
+}
+
+footer {
+   margin-left:1px;
+   font-size: 20px;
+}
